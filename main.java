@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
+        //initializing a couple variables
         int choice = 0;
         boolean iterate = true;
 
@@ -14,9 +16,6 @@ public class Main {
 
         // creating a Scanner object for User Input
         Scanner input = new Scanner(System.in);
-
-
-
 
         //do while loop to iterate until the user inputs a correct value
         //do while is used to run the code at least once,
@@ -88,11 +87,11 @@ public class Main {
     }
     //function for eventA
     public static void eventA () {
-        System.out.println("The monster dies");
+        System.out.println("You stab the monster and it dies");
     }
     //function for eventB
     public static void eventB () {
-        System.out.println("The monster eats you");
+        System.out.println("You try to make friends with the monster and it eats you");
     }
 
 }
